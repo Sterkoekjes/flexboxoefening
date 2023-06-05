@@ -1,1 +1,67 @@
-/*Schrijf hier jouw CSS*/
+/*opdracht 1*/
+
+.opdracht-1 ul {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+/*opdracht 2*/
+
+.opdr2 {
+    display: flex;
+}
+
+.opdr2 li {
+    flex-basis: 240px;
+}
+
+/*opdracht 3*/
+
+.opdr3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.topleft {
+    align-self: start;
+}
+
+.centered {
+    align-self: center;
+}
+
+.bottomright {
+    align-self: flex-end;
+}
+
+/*opdracht 4*/
+
+.text-knopjes {
+    display: flex;
+    gap: 10px 10px;
+    flex-wrap: wrap;
+}
+
+/*opdracht 5*/
+
+.opdr5 {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    /*border: 2px red solid;*/
+    justify-content: space-between;
+}
+
+.rijtje {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#rijtje-2 {
+    align-items: center;
+}
+
+#rijtje-3 {
+    align-items: flex-end;
+}
